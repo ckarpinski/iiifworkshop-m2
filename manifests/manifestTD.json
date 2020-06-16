@@ -31,18 +31,19 @@
 					"width": 11000,
 					"images": [
 						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@context": "https://iiif.io/api/presentation/2/context.json",
 							"@id": "http://51e1bdbd-8f21-4cd6-b639-8e52f12f76a3",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/ec2289845d408a739db78a9619defe9ceee2d5d5b57214b1d8a5a03356881996/full/full/0/default.jpg",
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
 									"@context": "https://iiif.io/api/image/2/context.json",
 									"@id": "https://free.iiifhosting.com/iiif/ec2289845d408a739db78a9619defe9ceee2d5d5b57214b1d8a5a03356881996",
 									"profile": [
-										"http://iiif.io/api/image/2/level1.json",
+										"https://iiif.io/api/image/2/level1.json",
 										{
 											"formats": [
 												"jpg"
